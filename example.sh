@@ -1,4 +1,4 @@
-cd ~/code/temp
+cd ~/code
 mkdir projects
 cd projects
 mkdir SampleProject
