@@ -33,6 +33,7 @@ touch email.png
 touch phone.png
 touch chat.png
 cd ..
+cd ..
 cd js
 touch index.js
 echo "Ended at $(date)"
