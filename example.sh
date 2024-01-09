@@ -6,7 +6,6 @@ mkdir SampleProject
 cd SampleProject
 mkdir css
 mkdir pages
-mkdir contact
 mkdir images
 mkdir js
 touch index.html
@@ -21,8 +20,8 @@ touch about.html
 touch about.css
 cd ..
 cd contact
-touch about.html
-touch about.css
+touch contact.html
+touch contact.css
 cd ..
 cd ..
 cd images
