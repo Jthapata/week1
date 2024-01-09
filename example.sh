@@ -1,3 +1,4 @@
+echo "Starting at $(date)"
 cd ~/code
 mkdir projects
 cd projects
@@ -34,3 +35,4 @@ touch chat.png
 cd ..
 cd js
 touch index.js
+echo "Ended at $(date)"
