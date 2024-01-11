@@ -1,0 +1,132 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: lightgrey;
+}
+
+header h1 {
+    padding: 1.5rem;
+    font-size: 24px;
+    color: black;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header ul * {
+    padding: .50rem;
+}
+
+header ul *:last-child {
+    padding-right: 0;
+    margin-right: 1rem;
+}
+
+header ul li a {
+    text-decoration: none;
+}
+
+header ul li a:visited {
+    color: black;
+}
+
+header ul li a:active {
+    color: #a8a8a8;
+}
+
+header img {
+    padding: 1rem;
+    transition: transform 2s ease;
+}
+
+header img:hover{
+    transform: rotate(360deg);
+}
+
+body {
+    background-color: #8f2a2a;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 {
+text-align: center;
+font-size: 9em;
+}
+p {
+text-align: center;
+}
+#mainContent {
+padding-top: 75px;
+padding-bottom: 75px;
+border: 1px solid whitesmoke;
+background-color: #484848;
+width: 100%;
+height: 100%;
+text-align: center;
+}
+#mainContent:hover{
+background-color: #303030;
+}
+img {
+width: 450px;
+height: 550px;
+border-radius: 80em 80em 80em 80em;
+border: 2px solid whitesmoke;
+box-shadow: 0px 0px 5px 5px whitesmoke
+}
+
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+from {
+  -webkit-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+to {
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+}
+@keyframes rotating {
+from {
+  -ms-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+to {
+  -ms-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+}
+
+
+img:hover {
+-webkit-animation: rotating 2s linear infinite;
+-moz-animation: rotating 2s linear infinite;
+-ms-animation: rotating 2s linear infinite;
+-o-animation: rotating 2s linear infinite;
+animation: rotating 2s linear infinite;
+background-color: snow;
+box-shadow: 0px 0px 5px 5px maroon
+}
+
+
+footer {
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
