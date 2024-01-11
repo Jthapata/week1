@@ -80,3 +80,7 @@ footer {
         height: 2.5rem;
     }
 }
+footer a {
+    color: white;
+    text-decoration: none;
+}
