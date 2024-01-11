@@ -111,11 +111,11 @@ to {
 
 
 img:hover {
--webkit-animation: rotating 2s linear infinite;
--moz-animation: rotating 2s linear infinite;
--ms-animation: rotating 2s linear infinite;
--o-animation: rotating 2s linear infinite;
-animation: rotating 2s linear infinite;
+-webkit-animation: rotating .1s linear infinite;
+-moz-animation: rotating .1s linear infinite;
+-ms-animation: rotating .1s linear infinite;
+-o-animation: rotating .1s linear infinite;
+animation: rotating .1s linear infinite;
 background-color: snow;
 box-shadow: 0px 0px 5px 5px maroon
 }
